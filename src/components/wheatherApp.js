@@ -27,8 +27,6 @@ export default function WeatherApp() {
       const json = await req.json();
 
       setWeather(json);
-
-      console.log(json);
     } catch (error) {}
   }
 
